@@ -99,3 +99,130 @@ a:link, a:visited, a:hover, a:focus {
   left: 0;
   border-color: #ee4949;
 }
+.camera_wrap {
+  height: 801px;
+  display: block;
+}
+.mcn-slider .camera_wrap {
+  margin-bottom: 0 !important;
+}
+.mcn-project {
+  margin-bottom: 50px;
+  overflow: hidden;
+  margin-top: 49px;
+}
+.mc-title {
+  margin-bottom: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.mcn-title h3 {
+    font: 400 15px/20px 'Utm-Avo';
+    color: #ed3237;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 18px;
+}
+.mcn-title h2 {
+  position: relative;
+}
+.mcn-title h2::after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #ff9900;
+  display: inline-block;
+  z-index: -999
+}
+.mcn-title h2 span::before {
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  background: white;
+  width: 100%;
+}
+.mcn-title h2 a {
+  color: #ed3237;
+}
+.mcn-title h2 span {
+    font: 400 25px/20px 'utm-hanzel';
+    color: #ed3237;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+/*Block news*/
+.mcn-block-news {
+  margin-bottom: 50px;
+}
+.text-align {
+  text-align: left;
+}
+.title-custom {
+  margin-bottom: 15px;
+}
+.title-custom h2 {
+  font: normal 20px/20px 'utm-hanzel';
+  color: #ed3237;
+  text-transform: uppercase;
+}
+.title-custom h2::after {
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 15px 0 0;
+  width: 40px;
+  background: #ee4949;
+}
+.news-home ul.lst-news::after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-bottom: 3px solid #f00;
+  border-right: 3px solid #f00;
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+}
+.news-home ul.lst-news::after {
+
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #f00;
+    border-right: 3px solid #f00;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+
+}
+::before, ::after {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.news-home ul.lst-news::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid #f00;
+  border-left: 3px solid #f00;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
